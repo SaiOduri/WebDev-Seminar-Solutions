@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>Microblog</title>
+    <link href="style/main.css" rel="stylesheet" type="text/css"/>
+    <link href="style/messages.css" rel="stylesheet" type="text/css"/>
+    <link href="style/form.css" rel="stylesheet" type="text/css"/>
+</head>
+<body>
+    <header>
+        <a href="/" id="title">Microblog</a>
+    </header>
+    
+    <form class="complex_form" id="create_message_form">
+      <div class="form_title">Post a message</div>
+      <input type="text" class="form_element" placeholder="Enter your name" name="user_name" required/>
+      <textarea rows="5" id="post_content" class="form_element" name="user_message" placeholder="Enter your message" required></textarea>
+      <input type="submit" class = "btn" value = "Post your message"/>
+    </form>
+    
+    <div id="messages">
+        
+    <div id="messages">
+      <!-- Alice -->
+      <div class = "container">
+        <div id = "user">
+          <img src = "media/Alice.png" class = "userpic">
+          <p align = "center">Alice</p>
+        </div>
+        <div class = "text">
+        <p>This microblog is so cool!</p>
+        </div>
+        <div class = "votecontainer">
+          <div class = "upvote">0
+          </div>
+          <div class = "downvote">0
+          </div>
+          <div class = "delete">
+          </div>
+        </div>
+      </div>
+
+      <!-- Bob -->
+      <div class = "container">
+        <div id = "user">
+          <img src = "media/Bob.png" class = "userpic">
+          <p align = "center">Bob</p>
+        </div>
+        <div class = "text">
+          <p>Welcome to TechXplore Web Dev!</p>
+        </div>
+        <div class = "votecontainer">
+          <div class = "upvote">0
+          </div>
+          <div class = "downvote">0
+          </div>
+          <div class = "delete">
+          </div>
+        </div>
+
+    </div>
+    
+    <footer>
+        <a href='/credits.html'>credits</a>
+    </footer>
+</body>
+</html>
